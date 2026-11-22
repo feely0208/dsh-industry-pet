@@ -1,0 +1,17 @@
+{
+  "id": "INDUSTRYPET-EXAMPLE-1",
+  "title": "【示例规则】把这条替换成真实判据，或删除",
+  "severity": "medium",
+  "source": "《示例依据》（文号）第 N 条 —— 每条规则必须带可核对出处",
+  "advice": "给出具体改法，不是一句「请整改」。",
+  "check": {
+    "type": "file-pattern",
+    "pattern": "EXAMPLE_PLACEHOLDER",
+    "flags": "gi",
+    "exts": [
+      ".md",
+      ".txt"
+    ],
+    "max": 20
+  }
+}
